@@ -20,5 +20,5 @@ WORKDIR /app
 
 COPY --from=builder /app/dist ./dist
 
-CMD [ "server", "-s", "dist", "-l", "5173" ]
+CMD [ "serve", "-s", "dist", "-l", "5173" ]
 
