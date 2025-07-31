@@ -34,7 +34,7 @@ jobs:
 
       - name: SSH and deploy
         run: |
-          ssh -i ~/.~/.ssh/id_ed25519 mdah@buld.site << 'EOF'
+          ssh -i ~/.ssh/id_ed25519 mdah@buld.site << 'EOF'
             cd aiqa6/
             git pull origin main
             docker compose -f dockercompose.yml up -d --build
