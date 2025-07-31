@@ -4,6 +4,10 @@
 
 - My focus is trying to speed run it and get smoother with the deployment step
 
+## New this time
+
+- [x] added a ci/cd via github actions so I don't have to manually deploy to the droplet
+
 ## Notes
 
 - next time can skip FE code, except for fetch and status handling
