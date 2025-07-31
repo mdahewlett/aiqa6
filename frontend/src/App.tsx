@@ -81,7 +81,7 @@ function App() {
     <div className="h-screen flex flex-col">
       <div className="px-3 py-2">
         <p className="text-muted-foreground italic md:text-sm">
-          This is the 6th time
+          This is the 6th time, and I have CI/CD running successfully
         </p>
       </div>
       <div className="flex flex-col mx-auto w-1/3 justify-center h-full gap-10">
